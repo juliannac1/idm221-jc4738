@@ -29,24 +29,26 @@ Instagram: Id0ntkn0wm4n
 This project involved redesigning the website for Yo Go Wild, a local frozen yogurt and snack shop, to enhance user experience and improve visual appeal. The website serves to inform the users of the menu, the ability to order pickup or delivery, and contact info. The target audience is people who are looking for a dessert or snack. They access the website by searching for local frozen yogurt places or “Yo Go Wild”. Once they access the website the user will read the menu, order pickup, or delivery. This store provides not only frozen yogurt but also ice cream, acai bowls, crepes, shakes, and smoothies. Key challenges included addressing poor visual design, inconsistent branding, and lack of social media integration. By refining the color palette, typography, imagery, and layout, and adding social media links, the redesign made the website more user-friendly, attractive, and aligned with the brand identity.
 
 Goals
-Improve the visual appeal and usability of the website
-Enhance the user experience by addressing design and content issues
-Attract potential customers through better presentation and social media integration
+- Improve the visual appeal and usability of the website
+- Enhance the user experience by addressing design and content issues
+- Attract potential customers through better presentation and social media integration
+
 Issues Identified
-Low-resolution, stock-like photos on the homepage
-Unappealing neon green background color
-Limited content above the fold
-Lack of social media links
-Inconsistent branding across Google, logo, and website
-No pictures on the menu to represent food items
-Delivery orders opening in a new tab unexpectedly
+- Low-resolution, stock-like photos on the homepage
+- Unappealing neon green background color
+- Limited content above the fold
+- Lack of social media links
+- Inconsistent branding across Google, logo, and website
+- No pictures on the menu to represent food items
+- Delivery orders opening in a new tab unexpectedly
+
 Improvements Implemented
-Changed the color palette to pink and white for a playful, coordinated look
-Used rounder, larger fonts for better readability
-Added links to social media (Twitter and Facebook)
-Replaced text lists of food options with icons for clarity
-Chose images that better align with the website’s vibe
-Focused changes on the "Home" and "About Us" pages
+- Changed the color palette to pink and white for a playful, coordinated look
+- Used rounder, larger fonts for better readability
+- Added links to social media (Twitter and Facebook)
+- Replaced text lists of food options with icons for clarity
+- Chose images that better align with the website’s vibe
+- Focused changes on the "Home" and "About Us" pages
 
 ### RoomieMatch Description 
 
@@ -110,7 +112,7 @@ Serenity Dream
 - Height: 30 inches
 - Width: 24 inches
 - Materials: Mixed Media: acrylic paint, muslin, embroidery floss
-- Process(es): Painting, embroidering, gluing
+- Process(es): Painting, embroidering, and gluing
 
 
 
