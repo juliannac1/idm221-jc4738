@@ -1,16 +1,21 @@
 @font-face {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     src: url(./font/PlayfairDisplay-VariableFont_wght.ttf);
     font-weight: 400 900;
 }
 
 @font-face {
-    font-family: "Raleway";
+    font-family: Raleway, sans-serif;
     src: url(./font/Raleway-VariableFont_wght.ttf);
     font-weight: 100 900;
 }
 
 h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-weight: 400;
+}
+
+p { 
+    font-family: Raleway, serif;
+    font-weight: 100;
 }
