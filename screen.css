@@ -89,34 +89,7 @@ body {
 }
 
 
-img {
-    height: auto;
-    width: 100%;
-  }
 
-  header {
-    background color: var(--nav-background-color);
-    height: var(--nav-height);
-    width: 100%;
-
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    label{
-        cursor: pointer;
-        height: 20px;
-        width: 26 px;
-        span{
-            background-color: var(--menu-icon-color);
-            border-radius: 2px;
-            display: block;
-            height; 3px;
-            position: absolute;
-
-            &:nth-child
-        }
-    }
-  }
 
   .nav-toggle:checked  nav {
     right: 0;
