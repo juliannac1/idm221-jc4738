@@ -5,17 +5,137 @@
 }
 
 @font-face {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     src: url(./font/Raleway-VariableFont_wght.ttf);
     font-weight: 100 900;
 }
 
 h1 {
     font-family: "Playfair Display", serif;
+    font-weight: 900;
+    line-height: 140%;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    line-height: 140%;
+}
+h3 {
+    font-family: "Playfair Display", serif;
     font-weight: 400;
+    line-height: 140%;
 }
 
 p { 
-    font-family: Raleway, serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 100;
+    line-height: 140%;
 }
+
+ul {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    line-height: 140%;
+    color:#302513
+}
+
+body {
+    background-color: #D8E6DB;
+    color: #302513;
+    margin: 0 auto;
+    width: 95%;
+}
+.home-p{
+    background-color: #ACC3B6;
+    border-radius: 20px;
+    padding: 10px 30px 15px 30px;
+}
+.Yogo {
+    background-color: #ACC3B6;
+    border-radius: 20px;
+    padding: 10px 30px 15px 30px;
+}
+
+.spacer {
+    padding: 8px 10px 8px 10px;
+}
+
+.RoomieMatch {
+    background-color: #525D3F;
+    border-radius: 20px;
+    padding: 10px 30px 15px 30px;
+    color: #D8E6DB;
+    ul {
+        color: #D8E6DB;
+    }
+}
+
+.media-card {
+    background-color: #525D3F;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    color: #D8E6DB;
+    ul {
+        color: #D8E6DB;
+    }
+}
+
+.about {
+    background-color: #C0BDB6;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+
+img {
+    height: auto;
+    width: 100%;
+  }
+
+  header {
+    background color: var(--nav-background-color);
+    height: var(--nav-height);
+    width: 100%;
+
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    label{
+        cursor: pointer;
+        height: 20px;
+        width: 26 px;
+        span{
+            background-color: var(--menu-icon-color);
+            border-radius: 2px;
+            display: block;
+            height; 3px;
+            position: absolute;
+
+            &:nth-child
+        }
+    }
+  }
+
+  .nav-toggle:checked  nav {
+    right: 0;
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
+    transform:rotate(45 deg);
+    top: -2 px;
+  }
+  .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
+    transform:rotate(-45 deg);
+  }
+/* "the header bar"{
+    position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+}
+*/
