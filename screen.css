@@ -1,3 +1,4 @@
+/* Brings in the 2 fonts */
 @font-face {
     font-family: "Playfair Display", serif;
     src: url(./font/PlayfairDisplay-VariableFont_wght.ttf);
@@ -9,7 +10,10 @@
     src: url(./font/Raleway-VariableFont_wght.ttf);
     font-weight: 100 900;
 }
+/* sets h1-h3 to the dark brown */
+h1 h2 h3 {  color: #302513;}
 
+/* sets the size and line height for headings paragraphs and lists */
 h1 {
     font-family: "Playfair Display", serif;
     font-weight: 900;
@@ -47,17 +51,31 @@ body {
     margin: 0 auto;
     width: 95%;
 }
+
+
 .home-p{
     background-color: #ACC3B6;
     border-radius: 20px;
     padding: 10px 30px 15px 30px;
 }
+
+
+.wrap {
+    height: 30px;
+    width: 17px;
+    overflow: hidden;
+    margin: 0px 0px -50px 58px; 
+    position:relative 
+}
+
+/* styles for the yogo div */
 .Yogo {
     background-color: #ACC3B6;
     border-radius: 20px;
     padding: 10px 30px 15px 30px;
 }
 
+/* makes a spacer so I can input boxes of padding */
 .spacer {
     padding: 8px 10px 8px 10px;
 }
@@ -72,6 +90,7 @@ body {
     }
 }
 
+/*specific styling for the background of the media card*/
 .media-card {
     background-color: #525D3F;
     border-radius: 20px;
@@ -89,26 +108,99 @@ body {
 }
 
 
+header {
+    background: #D8E6DB;
+    height: 48px;
+    width: 100%;
 
-
-  .nav-toggle:checked  nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+  
+    label {
+      cursor: pointer;
+      height: 20px;
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      width: 26px;
+      z-index: 1001;
+  
+      span {
+        background-color: black;
+        border-radius: 2px;
+        display: block;
+        height: 3px;
+        position: absolute;
+        width: 100%;
+  
+        transform-origin: left;
+  
+        &:nth-child(1) {
+          top: 0;
+        }
+  
+        &:nth-child(2) {
+          top: 8px;
+        }
+  
+        &:nth-child(3) {
+          top: 16px;
+        }
+      }
+    }
+  }
+  
+  nav {
+    background: #ACC3B6;
+    height: 100vh;
+    margin-block-start: 48px;
+    width: 300px;
+  
+    position: fixed;
+    right: -300px;
+    top: 0;
+    z-index: 1000;
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        padding: 0;
+  
+        a {
+          color: white;
+          display: block;
+          font-size: 1.25rem;
+          padding-block: 1rem;
+          padding-inline: 1rem;
+          text-decoration: none;
+  
+          &:hover {
+            background-color: blue;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  
+  /* Show nav when checkbox is checked */
+  .nav-toggle:checked ~ nav {
     right: 0;
   }
-
+  
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
-    transform:rotate(45 deg);
-    top: -2 px;
+    transform: rotate(45deg);
+    top: -2px; /* Fix */
   }
+  
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
     opacity: 0;
   }
+  
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
-    transform:rotate(-45 deg);
+    transform: rotate(-45deg);
   }
-/* "the header bar"{
-    position: fixed;
-     left: 0;
-     top: 0;
-     width: 100%;
-}
-*/
