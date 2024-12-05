@@ -107,7 +107,15 @@ body {
     padding: 10px 30px 10px 30px;
 }
 
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    
+}
 
+
+/*
 header {
     background: #D8E6DB;
     height: 48px;
@@ -187,7 +195,7 @@ header {
     }
   }
   
-  /* Show nav when checkbox is checked */
+  
   .nav-toggle:checked ~ nav {
     right: 0;
   }
@@ -195,7 +203,7 @@ header {
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
     transform: rotate(45deg);
     top: -2px; /* Fix */
-  }
+  
   
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
     opacity: 0;
@@ -204,3 +212,4 @@ header {
   .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
     transform: rotate(-45deg);
   }
+  
