@@ -110,8 +110,13 @@ body {
 img {
     width: 300px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    display: block;
 }
+
+ 
+
 
 
 /*
