@@ -108,8 +108,9 @@ body {
 }
 
 .back {
-  width: 10px;
+  width: 50px;
   height: auto;
+  ;
 }
 
 img {
@@ -190,7 +191,8 @@ nav {
         padding-block: 1rem;
         padding-inline: 1rem;
         text-decoration: none;
-
+        
+        /* when you hover the nav it turns these colors*/
         &:hover {
           background-color: #D8E6DB;
           color: #302513;
@@ -207,7 +209,7 @@ nav {
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
   transform: rotate(45deg);
-  top: -2px; /* Fix */
+  top: -2px; 
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
