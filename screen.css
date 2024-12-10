@@ -52,7 +52,6 @@ body {
     width: 95%;
 }
 
-
 .home-p{
     background-color: #ACC3B6;
     border-radius: 20px;
@@ -73,17 +72,15 @@ body {
     background-color: #ACC3B6;
     border-radius: 20px;
     padding: 10px 30px 15px 30px;
+    margin-top: 12px;
 }
 
-/* makes a spacer so I can input boxes of padding */
-.spacer {
-    padding: 8px 10px 8px 10px;
-}
 
 .RoomieMatch {
     background-color: #525D3F;
     border-radius: 20px;
     padding: 10px 30px 15px 30px;
+    margin-top: 12px;
     color: #D8E6DB;
     ul {
         color: #D8E6DB;
@@ -94,8 +91,9 @@ body {
 .media-card {
     background-color: #525D3F;
     border-radius: 20px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px;
     color: #D8E6DB;
+    margin-top: 1em;
     ul {
         color: #D8E6DB;
     }
@@ -110,18 +108,28 @@ body {
 .back {
   width: 50px;
   height: auto;
-  ;
+  float: left;
 }
 
 img {
     width: 300px;
     height: auto;
     border-radius: 15px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     display: block;
 }
 
- 
+.logo{
+  width: 35px;
+  height:auto;
+  float: left;
+  margin: 8px;
+} 
+
+.work-nav{
+  
+}
+
 header {
   background: #ACC3B6;
   height: 48px;
@@ -139,7 +147,7 @@ header {
     top: 1rem;
     width: 26px;
     z-index: 1001;
-
+    
     span {
       background-color: #302513;
       border-radius: 2px;

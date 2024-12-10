@@ -9,11 +9,30 @@
         <link rel="stylesheet" href="screen.css">
     </head>
 
-<body>    
+<body>
+    <header>
+        <img 
+        class="logo"
+        src= "media/logo.png">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="work.html">work</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
     <a href="work.html">
         <img 
         class="back"
-        left
         src=
         "media/back.png" alt="back button">
     </a>
@@ -23,7 +42,7 @@
     <p>
         Shot on a Canon PowerShot SX170 IS a 2:3 ratio Black and White
     </p>
-    <div>
+    <div class="photos">
             <img src="media/photo1.jpg" 
             alt="girl on computer with a girl in the bg image">
             <img src="media/photo2.jpg"
