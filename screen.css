@@ -119,6 +119,7 @@ body {
 video{
   object-fit: contain;
   padding: 1em;
+  border-radius: 15px;
 }
 
 .about {
@@ -162,6 +163,7 @@ img {
 .work-title{
   margin-right: 40px;
 }
+
 header {
   background: #ACC3B6;
   height: 48px;
