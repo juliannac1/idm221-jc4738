@@ -62,8 +62,9 @@ body {
 }
 
 .intro {
-  margin-bottom: 2em;
-  text-align: center;
+  
+  display: block; /* Ensures it's treated as a block-level element */
+  margin: 0 auto;
 }
 
 
