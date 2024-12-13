@@ -17,31 +17,35 @@ h1 h2 h3 {  color: #302513;}
 h1 {
     font-family: "Playfair Display", serif;
     font-weight: 900;
-    line-height: 140%;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
 h2 {
     font-family: "Playfair Display", serif;
     font-weight: 600;
-    line-height: 140%;
+    line-height: 150%;
 }
 h3 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 150%;
 }
 
 p { 
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 150%;
+    font-size: 18px;
 }
 
 ul {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 150%;
+    font-size: 18px;
     color:#302513
 }
 
@@ -52,20 +56,22 @@ body {
     width: 95%;
 }
 
+.hello{
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.intro {
+  margin-bottom: 2em;
+}
+
+
 .home-p{
     background-color: #ACC3B6;
     border-radius: 20px;
     padding: 10px 30px 15px 30px;
 }
 
-
-.wrap {
-    height: 30px;
-    width: 17px;
-    overflow: hidden;
-    margin: 0px 0px -50px 58px; 
-    position:relative 
-}
 
 /* styles for the yogo div */
 .Yogo {
@@ -99,6 +105,22 @@ body {
     }
 }
 
+
+.photos img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+}
+
+video{
+  object-fit: contain;
+  padding: 1em;
+}
+
 .about {
     background-color: #C0BDB6;
     border-radius: 20px;
@@ -106,8 +128,10 @@ body {
 }
 
 .back {
-  width: 50px;
-  height: auto;
+  margin: auto 0;
+  padding: 0;
+  width: 40px;
+  height:auto;
   float: left;
 }
 
@@ -123,13 +147,21 @@ img {
   width: 35px;
   height:auto;
   float: left;
-  margin: 8px;
+  margin: 8px ;
+  padding: 0;
 } 
 
-.work-nav{
-  
+.work-nav img{
+  height: auto; 
+  margin: 1em auto;
+  padding: 1px ;
+  overflow: hidden;
+  border: 2px solid #302513;
 }
 
+.work-title{
+  margin-right: 40px;
+}
 header {
   background: #ACC3B6;
   height: 48px;
