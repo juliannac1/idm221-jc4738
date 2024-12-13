@@ -118,8 +118,7 @@ body {
 
 video{
   object-fit: contain;
-  padding: 1em;
-  border-radius: 15px;
+  padding: auto;
 }
 
 .about {
@@ -128,7 +127,7 @@ video{
     padding: 10px 30px 10px 30px;
 }
 
-.back {
+.back { /* positions back button */
   margin: auto 0;
   padding: 0;
   width: 40px;
@@ -144,7 +143,7 @@ img {
     display: block;
 }
 
-.logo{
+.logo{ /* positions logo to top left corner */
   width: 35px;
   height:auto;
   float: left;
@@ -156,12 +155,18 @@ img {
   height: auto; 
   margin: 1em auto;
   padding: 1px ;
-  overflow: hidden;
+  overflow: hidden; /* hides overflow */
   border: 2px solid #302513;
 }
 
 .work-title{
   margin-right: 40px;
+}
+
+/* centers the text */
+.detail p{
+  margin-top: 1em;
+  text-align: center;
 }
 
 header {
